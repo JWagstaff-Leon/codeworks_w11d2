@@ -4,12 +4,12 @@ namespace w11d2.Models
 {
     public class Job
     {
-        public int Id;
+        public int Id  { get; set; }
 
         [Required]
-        public int ContractorId;
+        public int ContractorId  { get; set; }
 
         [Required]
-        public int CompanyId;
+        public int CompanyId  { get; set; }
     }
 }
